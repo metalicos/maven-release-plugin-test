@@ -29,14 +29,14 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>git@github.com:metalicos/maven-release-plugin-test/releases</url>
+            <url>ssh://git@github.com:metalicos/maven-release-plugin-test/releases</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
+        <connection>scm:git:ssh://git@github.com:metalicos/maven-release-plugin-test.git</connection>
         <developerConnection>
-            scm:git:git@github.com:metalicos/maven-release-plugin-test.git
+            scm:git:ssh://git@github.com:metalicos/maven-release-plugin-test.git
         </developerConnection>
         <url>https://github.com/metalicos/maven-release-plugin-test.git</url>
         <tag>v1.0.0</tag>
