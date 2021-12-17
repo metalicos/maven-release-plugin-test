@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>maven-release-plugin-test</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.2</version>
     <name>maven-release-plugin-test</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -39,7 +39,7 @@
             scm:git:ssh://git@github.com:metalicos/maven-release-plugin-test.git
         </developerConnection>
         <url>https://github.com/metalicos/maven-release-plugin-test.git</url>
-        <tag>v1.0.0</tag>
+        <tag>v1.1.2</tag>
     </scm>
     <build>
         <plugins>
