@@ -51,6 +51,7 @@
                     <tagBase>
                         https://github.com/metalicos/maven-release-plugin-test.git
                     </tagBase>
+                    <remoteTagging>false</remoteTagging>
                 </configuration>
             </plugin>
             <plugin>
