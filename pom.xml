@@ -26,12 +26,12 @@
         </dependency>
     </dependencies>
 
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>releases</id>-->
-<!--            <url>https://github.com/metalicos/maven-release-plugin-test/releases</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</url>
+        </repository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
