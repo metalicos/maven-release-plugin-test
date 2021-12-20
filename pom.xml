@@ -26,12 +26,20 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
+    <repositories>
         <repository>
             <id>releases</id>
-            <url>file:///D:/Windows/Desktop/maven-release-plugin-test/</url>
+            <name>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</name>
+            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>
         </repository>
-    </distributionManagement>
+    </repositories>
+
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>releases</id>-->
+<!--            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <scm>
         <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
