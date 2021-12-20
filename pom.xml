@@ -29,7 +29,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</url>
+            <url>file:///D:/Windows/Desktop/maven-release-plugin-test/</url>
         </repository>
     </distributionManagement>
 
@@ -38,7 +38,7 @@
         <developerConnection>
             scm:git:git@github.com:metalicos/maven-release-plugin-test.git
         </developerConnection>
-        <url>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</url>
+        <url>https://github.com/metalicos/maven-release-plugin-test.git</url>
         <tag>v1.1.2</tag>
     </scm>
     <build>
