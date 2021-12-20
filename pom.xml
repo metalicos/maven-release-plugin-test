@@ -34,12 +34,12 @@
         </repository>
     </repositories>
 
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>releases</id>-->
-<!--            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>
+        </repository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
