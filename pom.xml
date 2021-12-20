@@ -26,19 +26,19 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <url>https://github.com/metalicos/maven-release-plugin-test/releases</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>releases</id>-->
+<!--            <url>https://github.com/metalicos/maven-release-plugin-test/releases</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <scm>
         <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
         <developerConnection>
             scm:git:git@github.com:metalicos/maven-release-plugin-test.git
         </developerConnection>
-        <url>https://github.com/metalicos/maven-release-plugin-test.git</url>
+        <url>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</url>
         <tag>v1.1.2</tag>
     </scm>
     <build>
