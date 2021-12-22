@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.6.1</version>
-        <relativePath />
+        <relativePath/>
     </parent>
     <groupId>com.example</groupId>
     <artifactId>maven-release-plugin-test</artifactId>
@@ -27,10 +28,15 @@
     </dependencies>
 
     <repositories>
+        <!--        <repository>-->
+        <!--            <id>releases</id>-->
+        <!--            <name>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</name>-->
+        <!--            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>-->
+        <!--        </repository>-->
         <repository>
-            <id>releases</id>
-            <name>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</name>
-            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>
+            <id>central</id>
+            <name>a0dbfdnfoax9x-artifactory-primary-0-releases</name>
+            <url>https://komplost.jfrog.io/artifactory/cd-maven-releases</url>
         </repository>
     </repositories>
 
@@ -41,12 +47,12 @@
             <url>https://komplost.jfrog.io/artifactory/cd-maven-releases</url>
         </repository>
     </distributionManagement>
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>releases</id>-->
-<!--            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+    <!--    <distributionManagement>-->
+    <!--        <repository>-->
+    <!--            <id>releases</id>-->
+    <!--            <url>file:///C:/Users/Ostap_Komplikevych/Desktop/repo/</url>-->
+    <!--        </repository>-->
+    <!--    </distributionManagement>-->
 
     <scm>
         <connection>scm:git:git@github.com:metalicos/maven-release-plugin-test.git</connection>
