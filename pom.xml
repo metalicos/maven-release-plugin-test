@@ -42,8 +42,8 @@
     <distributionManagement>
         <repository>
             <id>central</id>
-            <name>a0dbfdnfoax9x-artifactory-primary-0-releases</name>
-            <url>https://komplost.jfrog.io/artifactory/cd-maven-releases</url>
+            <name>cd-maven-releases</name>
+            <url>https://komplost.jfrog.io/artifactory/cd-maven-releases/</url>
         </repository>
     </distributionManagement>
     <!--    <distributionManagement>-->
